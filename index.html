@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya - Kelas 8</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-code"></i> StudentPortofolio
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact" class="btn-nav">Kontak</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+      <i class="fa-solid fa-moon"></i>
+    </button>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <div class="badge">🚀 Siswa SMP Kelas 8</div>
+      <h1>Halo, Saya <span class="highlight">Ajeng Kamila</span></h1>
+      <p class="subtitle">Siswa SMP & Aspiring Technology Creator yang suka belajar coding, desain grafis, dan eksplorasi teknologi AI.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-rocket"></i> Lihat Karya</a>
+        <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-paper-plane"></i> Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-card">
+        <div class="avatar-inner">
+          <i class="fa-solid fa-user-astronaut avatar-icon"></i>
+        </div>
+        <div class="floating-tag tag-1"><i class="fa-brands fa-html5"></i> Web Dev</div>
+        <div class="floating-tag tag-2"><i class="fa-solid fa-robot"></i> AI Explorer</div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="section-header">
+      <h2>Tentang Saya</h2>
+      <p class="section-desc">Mengenal lebih dekat perjalanan belajar saya di sekolah.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3>Pendidikan</h3>
+        <p>Kelas 8 di SMP Negeri Utama. Aktif dalam ekstrakurikuler Komputer dan Coding Club.</p>
+      </div>
+      <div class="about-card">
+        <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+        <h3>Cita-cita</h3>
+        <p>Ingin menjadi Software Engineer dan Game Developer yang menciptakan aplikasi bermanfaat.</p>
+      </div>
+      <div class="about-card">
+        <div class="card-icon"><i class="fa-solid fa-heart"></i></div>
+        <h3>Hobi</h3>
+        <p>Membaca artikel teknologi, merakit kit elektronik/robotik sederhana, dan bermain game strategi.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section bg-alt">
+    <div class="section-header">
+      <h2>Keahlian & Minat</h2>
+      <p class="section-desc">Hal-hal yang sedang saya pelajari dan kembangkan saat ini.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <div class="skill-info">
+          <span><i class="fa-brands fa-html5"></i> HTML5 & CSS3</span>
+          <span class="percentage">80%</span>
+        </div>
+        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-info">
+          <span><i class="fa-brands fa-js"></i> JavaScript Dasar</span>
+          <span class="percentage">60%</span>
+        </div>
+        <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-info">
+          <span><i class="fa-solid fa-robot"></i> AI Prompting</span>
+          <span class="percentage">85%</span>
+        </div>
+        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-info">
+          <span><i class="fa-solid fa-palette"></i> Desain UI/UX (Figma)</span>
+          <span class="percentage">70%</span>
+        </div>
+        <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="section-header">
+      <h2>Proyek Saya</h2>
+      <p class="section-desc">Hasil karya sederhana yang pernah saya buat selama belajar.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img bg-p1"><i class="fa-solid fa-gamepad"></i></div>
+        <div class="project-info">
+          <h3>Game Tebak Angka</h3>
+          <p>Game interaktif berbasis JavaScript untuk menguji logika pemograman.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img bg-p2"><i class="fa-solid fa-calculator"></i></div>
+        <div class="project-info">
+          <h3>Kalkulator Sederhana</h3>
+          <p>Alat bantu hitung tugas matematika sekolah dengan antarmuka bersih.</p>
+          <div class="project-tags"><span>HTML</span><span>CSS</span></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img bg-p3"><i class="fa-solid fa-globe"></i></div>
+        <div class="project-info">
+          <h3>Web Info Kelas 8</h3>
+          <p>Website informasi kegiatan dan jadwal belajar untuk teman sekelas.</p>
+          <div class="project-tags"><span>AI Tool</span><span>HTML</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section bg-alt">
+    <div class="section-header">
+      <h2>Mari Terhubung</h2>
+      <p class="section-desc">Punya pertanyaan atau ingin berdiskusi? Kirim pesan di bawah!</p>
+    </div>
+    <div class="contact-container">
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label for="name">Nama Kamu</label>
+          <input type="text" id="name" placeholder="Masukkan nama..." required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="contoh@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Pesan</label>
+          <textarea id="message" rows="4" placeholder="Tulis pesanmu..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full"><i class="fa-solid fa-paper-plane"></i> Kirim Pesan</button>
+      </form>
+      <div id="formSuccess" class="alert alert-success hidden">
+        🎉 Pesanmu berhasil dikirim! Terima kasih sudah mampir.
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Alex Pratama | Dibuat dengan <i class="fa-solid fa-heart" style="color: #ef4444;"></i> dan Bantuan AI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
